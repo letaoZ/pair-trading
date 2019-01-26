@@ -4,9 +4,11 @@
 ## Files
 1. t.txt: trades file.
     > ordered by TIME
+    
     > Each row = at TIME a SYMBOL (SPY) has quote update (BID/ASK) till another price update
 2. q.txt: quotes file.
     > ordered by TIME
+    
     > Each row = a ticker (say SPY) was B(ought) or S(old) at a PRICE for QUANTITY many shares. (by someone we don't know)
     
 ## What we do
