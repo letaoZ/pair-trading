@@ -19,7 +19,7 @@ Search for the best opportunity to trade. i.e. buy low sell high, search for liq
       2. For sell execution: liquidity is Passive if price >=ask; is Aggressive if price <= bid
       3. Passive = P, Aggressive = A
       trading pairs:
-      1. Given any symbol, our inventory is 0. So th 1st execution is always Buy and create +inventory = open trade
+      1. Given any symbol, assume our starting inventory is 0. 
       2. Sell will result in decreasing inventory -- close trade
       3. When sell more than our inventory, we are in short position
       4. In our pairs trading result, we also compute the profile and loss. caused by paired trading 
